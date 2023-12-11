@@ -17,7 +17,7 @@ A Non-Local-Means algorithm implementation using NVIDIA CUDA.
 * Open each .c and .cu file and edit the global variables (PIXELS, PATCH_SIZE, FILTER_SIGMA, PATCH_SIGMA) at the top of the script according to your needs. 
 * PIXELS refers to the size of your image (PIXELSxPIXELS).
 
-## **2. Matlab files**
+## 2. Matlab files**
 The `.m` files contain supplementary functions in order to convert png/txt files. The image used to run the implementations MUST have the name `image.png`. Running the `image_read` file will produce the *noisy_image.txt* and running the `denoised_image_read` file will produce the *filtered_image.png* and *noise_removed.png* files.
 
 ```
@@ -28,7 +28,7 @@ run image_read.m
 
 ```
 
-## **3. Local execution**
+## 3. Local execution**
 In order to test the implementations locally on your machine, use the files located in the home directory. Follow the commands in the order given below:
 
 ```
@@ -40,7 +40,7 @@ make all
 Make clean should be used if you have already ran the programs before. Instead of filename type the implementation you want to run. All of the above commands are declared in the Makefile.
 
 
-## **4. Generate png file after running the filter implementation
+## 4. Generate png file after running the filter implementation
 
 ```
 module load matlab
