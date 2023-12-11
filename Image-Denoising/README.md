@@ -24,8 +24,6 @@ The `.m` files contain supplementary functions in order to convert png/txt files
 module load matlab
 matlab
 run image_read.m
-
-
 ```
 
 ## 3. Local execution
@@ -46,6 +44,4 @@ Make clean should be used if you have already ran the programs before. Instead o
 module load matlab
 matlab
 run denoised_image_read.m
-
-
 ```
