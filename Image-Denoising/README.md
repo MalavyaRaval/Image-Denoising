@@ -1,4 +1,4 @@
-# Parallel-Exercise3
+# Non-Local Means
 
 A Non-Local-Means algorithm implementation using NVIDIA CUDA.
 
