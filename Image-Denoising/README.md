@@ -40,7 +40,7 @@ make all
 Make clean should be used if you have already ran the programs before. Instead of filename type the implementation you want to run. All of the above commands are declared in the Makefile.
 
 
-## **4. Generate png file after running the filter implementation **
+## **4. Generate png file after running the filter implementation
 
 ```
 module load matlab
