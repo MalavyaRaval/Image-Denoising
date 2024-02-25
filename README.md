@@ -1,4 +1,4 @@
-# Non-Local Means
+# Non-Local Means On High Performance Computing Node 
 
 A Non-Local-Means algorithm implementation using NVIDIA CUDA.
 
